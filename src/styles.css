@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+#navbar, #content, footer {
+    width:100%;
+}
+#navbar {
+    display:flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
