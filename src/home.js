@@ -1,0 +1,41 @@
+import restaurantImg from "./assets/mamas-fried-chicken_audit1819_beauty_197-9d9a60dbcede4c7984c6d670fba69e08.jpg"
+
+export default function homeTab() {
+    const container = document.querySelector("#content")
+
+    const heading = document.createElement("h1")
+    heading.textContent = "Daniel's Fried Chicken"
+    heading.classList.add("home-heading")
+
+    const imgContainer = document.createElement("div")
+    imgContainer.classList.add("img-container")
+
+    const img = document.createElement("img")
+    img.setAttribute("src", restaurantImg)
+    img.classList.add("home-img")
+
+    const aboutText = document.createElement("p")
+    aboutText.classList.add("about-text")
+    aboutText.textContent = "At Daniel's Fried Chicken, we're all about serving up the best fried chicken with a side of great customer service. Every piece is cooked to crispy perfection and seasoned just right, making each bite better than the last. Whether it’s your first visit or your hundredth, we treat every guest like family, ensuring you always feel welcome and well taken care of."
+
+    const hoursText = document.createElement("p")
+    hoursText.classList.add("detail-text")
+    hoursText.textContent = "Hours: 9AM - 11PM"
+
+    const daysText = document.createElement("p")
+    daysText.classList.add("detail-text")
+    daysText.textContent = "Open Days: Monday - Saturday"
+
+    const locationText = document.createElement("p")
+    locationText.classList.add("detail-text")
+    locationText.textContent = "Chicken Street, New York"
+
+    container.appendChild(heading)
+    container.appendChild(imgContainer)
+    imgContainer.appendChild(img)
+    imgContainer.appendChild(aboutText)
+    container.appendChild(hoursText)
+    container.appendChild(daysText)
+    container.appendChild(locationText)
+
+}
