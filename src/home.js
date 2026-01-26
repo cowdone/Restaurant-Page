@@ -4,7 +4,7 @@ export default function homeTab() {
     const container = document.querySelector("#content")
 
     const heading = document.createElement("h1")
-    heading.textContent = "Daniel's Fried Chicken"
+    heading.textContent = "---Daniel's Fried Chicken---"
     heading.classList.add("home-heading")
 
     const imgContainer = document.createElement("div")
@@ -29,6 +29,14 @@ export default function homeTab() {
     const locationText = document.createElement("p")
     locationText.classList.add("detail-text")
     locationText.textContent = "Chicken Street, New York"
+
+    const footer = document.querySelector("footer")
+    const gitLink = document.createElement("a")
+    gitLink.setAttribute("href", "https://github.com/cowdone/Restaurant-Page")
+    gitLink.setAttribute("target", "_blank")
+    gitLink.textContent = "- View on Github"
+    footer.textContent = "By Daniel Balderas -";
+    footer.appendChild(gitLink)
 
     container.appendChild(heading)
     container.appendChild(imgContainer)

@@ -11,6 +11,13 @@ export default function menuTab() {
     menuHeading.classList.add("menu-heading")
     menuHeading.textContent = "~*~*~-Menu-~*~*~"
     container.appendChild(menuHeading)
+    const footer = document.querySelector("footer")
+    const gitLink = document.createElement("a")
+    gitLink.setAttribute("href", "https://github.com/cowdone/Restaurant-Page")
+    gitLink.setAttribute("target", "_blank")
+    gitLink.textContent = "- View on Github"
+    footer.textContent = "By Daniel Balderas -";
+    footer.appendChild(gitLink)
     for(let i = 1; i <= 6; i++ ){
         const gridItem = document.createElement("div")
         gridItem.classList.add("grid-item")
