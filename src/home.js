@@ -4,7 +4,7 @@ export default function homeTab() {
     const container = document.querySelector("#content")
 
     const heading = document.createElement("h1")
-    heading.textContent = "---Daniel's Fried Chicken---"
+    heading.textContent = "Daniel's Fried Chicken"
     heading.classList.add("home-heading")
 
     const imgContainer = document.createElement("div")

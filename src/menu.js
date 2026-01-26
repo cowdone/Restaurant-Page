@@ -9,7 +9,7 @@ export default function menuTab() {
     const container = document.querySelector(".menu-content")
     const menuHeading = document.createElement("h1")
     menuHeading.classList.add("menu-heading")
-    menuHeading.textContent = "~*~*~-Menu-~*~*~"
+    menuHeading.textContent = "----Menu----"
     container.appendChild(menuHeading)
     const footer = document.querySelector("footer")
     const gitLink = document.createElement("a")

@@ -77,6 +77,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    font-weight: 900;
 }
 .img-container {
     display:flex;
@@ -97,11 +98,12 @@ footer {
     line-height: 1.6;
 }
 .detail-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .home-heading {
     font-size: clamp(4rem, 4vw, 5rem);
     color:white;
+    border-bottom: 6px solid white;
 }
 .menu-img{
     height: auto;
@@ -117,6 +119,22 @@ footer {
     align-self: center;
     font-size: 6rem;
     color:white;
+    border-bottom: 6px solid white;
+}
+.contact-info {
+    font-size:1.5rem;
+}
+#contact-message {
+    font-size:3rem;
+    text-align: center;
+    font-weight: 400;
+}
+#contact-heading {
+    font-size: clamp(4rem, 4vw, 5rem);
+    color:white;
+    padding:25px;
+    margin:0;
+    border-bottom: 6px solid white;
 }
 .flex-container {
     display: flex;
