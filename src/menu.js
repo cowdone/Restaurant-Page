@@ -1,10 +1,15 @@
 import img_1 from "./assets/Fried_Chicken_Basket-1.jpg"
+import img_2 from "./assets/chicken-and-waffles-12.jpg"
+import img_3 from "./assets/spicy-fried-chicken-strips-3056880-hero-01-e5bad43e0d3441749f17c1b98b5486c2.jpg"
+import img_4 from "./assets/Fried-Chicken-Biscuit-1.jpg"
+import img_5 from "./assets/DK6A1031-680x1020.jpg"
+import img_6 from "./assets/BBQ_Chicken_Drumsticks.jpg"
 
 export default function menuTab() {
     const container = document.querySelector(".menu-content")
     const menuHeading = document.createElement("h1")
     menuHeading.classList.add("menu-heading")
-    menuHeading.textContent = "~-Menu-~"
+    menuHeading.textContent = "~*~*~-Menu-~*~*~"
     container.appendChild(menuHeading)
     for(let i = 1; i <= 6; i++ ){
         const gridItem = document.createElement("div")
@@ -27,18 +32,51 @@ export default function menuTab() {
 
         const dishDescription = document.createElement("p")
         dishDescription.classList.add(`description`)
-        if(i === 1) {
+        function appendElements() {
             container.appendChild(gridItem)
             gridItem.appendChild(flexContainer)
             flexContainer.appendChild(img)
             flexContainer.appendChild(flexContainer2)
-            nameOfDish.textContent = "Classic Fried Chicken Basket"
             flexContainer2.appendChild(nameOfDish)
-            priceOfDish.textContent = "$12.99"
             flexContainer2.appendChild(priceOfDish)
-            dishDescription.textContent = "Crispy, golden-brown fried chicken served with a side of seasoned fries and a tangy dipping sauce. The perfect meal for anyone craving a timeless favorite."
             flexContainer2.appendChild(dishDescription)
+        }
+        if(i === 1) {
+            nameOfDish.textContent = "Classic Fried Chicken Basket"
+            priceOfDish.textContent = "$12.99"
+            dishDescription.textContent = "Crispy, golden-brown fried chicken served with a side of seasoned fries and a tangy dipping sauce. The perfect meal for anyone craving a timeless favorite."
             img.setAttribute("src", img_1)
+            appendElements();
+        } else if(i === 2) {
+            nameOfDish.textContent = "Southern Chicken & Waffles"
+            priceOfDish.textContent = "$15.49"
+            dishDescription.textContent = "A delicious pairing of crispy fried chicken and fluffy waffles drizzled with warm maple syrup. The perfect balance of savory and sweet."
+            img.setAttribute("src",img_2)
+            appendElements();
+        } else if(i === 3) {
+            nameOfDish.textContent = "Spicy Chicken Tenders"
+            priceOfDish.textContent = "$11.99"
+            dishDescription.textContent = "Tender, juicy chicken strips with a bold spicy breading. Served with a side of creamy ranch dressing to cool things down a bit."
+            img.setAttribute("src",img_3)
+            appendElements();
+        } else if(i === 4) {
+            nameOfDish.textContent = "Chicken and Biscuit Sandwich"
+            priceOfDish.textContent = "$6.50"
+            dishDescription.textContent = "A tender fried chicken breast nestled between two flaky buttermilk biscuits, topped with honey butter and a dash of hot sauce for a spicy kick."
+            img.setAttribute("src",img_4)
+            appendElements();
+        } else if(i === 5) {
+            nameOfDish.textContent = "Fried Chicken Po' Boy"
+            priceOfDish.textContent = "$9.99"
+            dishDescription.textContent = "A classic New Orleans-style sandwich with crispy fried chicken, shredded lettuce, pickles, and spicy mayo, all served on a toasted hoagie roll."
+            img.setAttribute("src",img_5)
+            appendElements();
+        } else if(i === 6) {
+            nameOfDish.textContent = "BBQ Chicken Drumsticks"
+            priceOfDish.textContent = "$9.99"
+            dishDescription.textContent = "Smoky, char-grilled chicken drumsticks glazed with a tangy BBQ sauce. Served with a side of creamy coleslaw and sweet potato fries for a true Southern experience."
+            img.setAttribute("src",img_6)
+            appendElements();
         }
     }
     
