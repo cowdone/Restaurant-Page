@@ -8,6 +8,12 @@ export default function contactTab() {
     gitLink.textContent = "- View on Github"
     footer.textContent = "By Daniel Balderas -";
     footer.appendChild(gitLink)
+    const attributeToAuthor = document.createElement("a")
+    attributeToAuthor.setAttribute("href", "https://www.flaticon.com/free-icons/fried-chicken")
+    attributeToAuthor.setAttribute("title", "fried chicken icons")
+    attributeToAuthor.setAttribute("target", "_blank")
+    attributeToAuthor.textContent = "- Fried chicken icon created by ultimatearm - Flaticon"
+    footer.appendChild(attributeToAuthor)
 
     const contactHeading = document.createElement("h1")
     contactHeading.setAttribute("id", "contact-heading")

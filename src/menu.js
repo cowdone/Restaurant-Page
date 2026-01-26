@@ -18,6 +18,13 @@ export default function menuTab() {
     gitLink.textContent = "- View on Github"
     footer.textContent = "By Daniel Balderas -";
     footer.appendChild(gitLink)
+    const attributeToAuthor = document.createElement("a")
+    attributeToAuthor.setAttribute("href", "https://www.flaticon.com/free-icons/fried-chicken")
+    attributeToAuthor.setAttribute("title", "fried chicken icons")
+    attributeToAuthor.setAttribute("target", "_blank")
+    attributeToAuthor.textContent = "- Fried chicken icon created by ultimatearm - Flaticon"
+    footer.appendChild(attributeToAuthor)
+    
     for(let i = 1; i <= 6; i++ ){
         const gridItem = document.createElement("div")
         gridItem.classList.add("grid-item")

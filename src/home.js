@@ -34,9 +34,15 @@ export default function homeTab() {
     const gitLink = document.createElement("a")
     gitLink.setAttribute("href", "https://github.com/cowdone/Restaurant-Page")
     gitLink.setAttribute("target", "_blank")
-    gitLink.textContent = "- View on Github"
+    gitLink.textContent = "- View on Github -"
     footer.textContent = "By Daniel Balderas -";
     footer.appendChild(gitLink)
+    const attributeToAuthor = document.createElement("a")
+    attributeToAuthor.setAttribute("href", "https://www.flaticon.com/free-icons/fried-chicken")
+    attributeToAuthor.setAttribute("title", "fried chicken icons")
+    attributeToAuthor.setAttribute("target", "_blank")
+    attributeToAuthor.textContent = "- Fried chicken icon created by ultimatearm - Flaticon"
+    footer.appendChild(attributeToAuthor)
 
     container.appendChild(heading)
     container.appendChild(imgContainer)
