@@ -12,4 +12,4 @@ Jocelyn. Fried Chicken Biscuit. Grandbaby Cakes, https://grandbaby-cakes.com/wp-
 
 Liburd, Quin. DK6A1031. Butter Be Ready, 2021, https://www.butterbeready.com/wp-content/uploads/2021/09/DK6A1031-680x1020.jpg
 
-Miner, Laura. BBQ Chicken Drumsticks. Cook at Home Mom, 2021, https://cookathomemom.com/wp-content/uploads/2021/05/BBQ_Chicken_Drumsticks.jpg
+Clements, Louisa. (2017, January 10). Honey Buffalo Chicken Wings. Living Lou. https://www.livinglou.com/wp-content/uploads/2017/01/honey-buffalo-chicken-wings-678x1024.jpg
