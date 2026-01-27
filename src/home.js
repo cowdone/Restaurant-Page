@@ -16,7 +16,7 @@ export default function homeTab() {
 
     const aboutText = document.createElement("p")
     aboutText.classList.add("about-text")
-    aboutText.textContent = "At Daniel's Fried Chicken, we're all about serving up the best fried chicken with a side of great customer service. Every piece is cooked to crispy perfection and seasoned just right, making each bite better than the last. Whether it’s your first visit or your hundredth, we treat every guest like family, ensuring you always feel welcome and well taken care of."
+    aboutText.textContent = "At Daniel's Fried Chicken, we're all about serving up the best fried chicken with a side of great customer service. Every piece is cooked to crispy perfection and seasoned just right, making each bite better than the last. This restaurant is owned by Daniel and his partner Diana who both make the chicken with love."
 
     const hoursText = document.createElement("p")
     hoursText.classList.add("detail-text")
