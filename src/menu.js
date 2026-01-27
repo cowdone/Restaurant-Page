@@ -3,7 +3,7 @@ import img_2 from "./assets/chicken-and-waffles-12.jpg"
 import img_3 from "./assets/spicy-fried-chicken-strips-3056880-hero-01-e5bad43e0d3441749f17c1b98b5486c2.jpg"
 import img_4 from "./assets/Fried-Chicken-Biscuit-1.jpg"
 import img_5 from "./assets/DK6A1031-680x1020.jpg"
-import img_6 from "./assets/BBQ_Chicken_Drumsticks.jpg"
+import img_6 from "./assets/honey-buffalo-chicken-wings-678x1024.jpg"
 
 export default function menuTab() {
     const container = document.querySelector(".menu-content")
@@ -86,9 +86,9 @@ export default function menuTab() {
             img.setAttribute("src",img_5)
             appendElements();
         } else if(i === 6) {
-            nameOfDish.textContent = "BBQ Chicken Drumsticks"
-            priceOfDish.textContent = "$9.99"
-            dishDescription.textContent = "Smoky, char-grilled chicken drumsticks glazed with a tangy BBQ sauce. Served with a side of creamy coleslaw and sweet potato fries for a true Southern experience."
+            nameOfDish.textContent = "Honey Buffalo Chicken Wings"
+            priceOfDish.textContent = "$12.99"
+            dishDescription.textContent = "Indulge in our Honey Buffalo Chicken Wings, featuring a bold buffalo sauce with a touch of honey to satisfy both your spicy and sweet cravings. Crispy on the outside, tender and juicy on the inside—these wings are the perfect choice for those who crave flavor-packed satisfaction with every bite. Perfect for sharing (or not!)."
             img.setAttribute("src",img_6)
             appendElements();
         }
