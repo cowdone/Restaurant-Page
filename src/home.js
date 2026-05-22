@@ -4,7 +4,7 @@ export default function homeTab() {
     const container = document.querySelector("#content")
 
     const heading = document.createElement("h1")
-    heading.textContent = "Daniel's and Diana's Fried Chicken"
+    heading.textContent = "Daniel's Fried Chicken"
     heading.classList.add("home-heading")
 
     const imgContainer = document.createElement("div")
@@ -16,7 +16,7 @@ export default function homeTab() {
 
     const aboutText = document.createElement("p")
     aboutText.classList.add("about-text")
-    aboutText.textContent = "At Daniel's and Diana's Fried Chicken, we're all about serving up the best fried chicken with a side of great customer service. Every piece is cooked to crispy perfection and seasoned just right, making each bite better than the last. This restaurant is owned by Daniel and his partner Diana who both make the chicken with love."
+    aboutText.textContent = "At Daniel's Fried Chicken, we're all about serving up the best fried chicken with a side of great customer service. Every piece is cooked to crispy perfection and seasoned just right, making each bite better than the last. This restaurant is owned by Daniel who makes the recipe so that the chicken always comes out perfect."
 
     const hoursText = document.createElement("p")
     hoursText.classList.add("detail-text")
